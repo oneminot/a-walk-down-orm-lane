@@ -10,6 +10,7 @@ namespace Console.AWalkDownORMLane
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
