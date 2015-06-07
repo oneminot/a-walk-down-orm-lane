@@ -9,7 +9,7 @@ namespace ConsoleTests.AWalkDownORMLane
         [TestMethod]
         public void TestPersonEmptyConstructor()
         {
-            var person = new Person();
+            var person = new Console.AWalkDownORMLane.Person();
             Assert.AreEqual(person.Name, "");
         }
     }

@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Console.AWalkDownORMLane
 {
-    class Person
+    public class Person
     {
         public string Name { get; set; }
-
-        Person()
+        public Person()
         {
             Name = "";
         }

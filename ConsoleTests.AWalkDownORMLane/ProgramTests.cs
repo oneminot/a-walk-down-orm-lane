@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Console.AWalkDownORMLane;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ConsoleTests.AWalkDownORMLane
 {
@@ -10,7 +8,7 @@ namespace ConsoleTests.AWalkDownORMLane
         [TestMethod]
         public void TestMain()
         {
-            Assert.AreEqual(Program.Main(),0);
+            Assert.AreEqual(Console.AWalkDownORMLane.Program.Main(),0);
         }
     }
 }
