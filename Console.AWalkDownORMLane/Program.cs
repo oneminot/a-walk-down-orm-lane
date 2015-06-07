@@ -1,9 +1,10 @@
 ﻿namespace Console.AWalkDownORMLane
 {
-    internal static class Program
+    public static class Program
     {
-        private static void Main(string[] args)
+        public static int Main()
         {
+            return 0;
         }
     }
 }

@@ -1,14 +1,16 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Console.AWalkDownORMLane;
 
 namespace ConsoleTests.AWalkDownORMLane
 {
     [TestClass]
-    public class UnitTest1
+    public class ProgramTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMain()
         {
+            Assert.AreEqual(Program.Main(),0);
         }
     }
 }
