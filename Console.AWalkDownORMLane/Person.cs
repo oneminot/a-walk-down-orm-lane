@@ -8,7 +8,7 @@ namespace Console.AWalkDownORMLane
 {
     public class Person
     {
-        public string Name { get; set; }
+        string Name { get; set; }
         public Person()
         {
             Name = "";
