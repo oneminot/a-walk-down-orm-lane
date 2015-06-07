@@ -1,7 +1,9 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using Web.AWalkDownORMLane;
 
-[assembly: OwinStartupAttribute(typeof(Web.AWalkDownORMLane.Startup))]
+[assembly: OwinStartup(typeof (Startup))]
+
 namespace Web.AWalkDownORMLane
 {
     public partial class Startup

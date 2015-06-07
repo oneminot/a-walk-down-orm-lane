@@ -1,13 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Playground.AWalkDownORMLane
+﻿namespace Playground.AWalkDownORMLane
 {
     public class DayPrinter
     {
+        public enum DayName
+        {
+            Sunday,
+            Monday,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday
+        }
+
+        public DayName Name { get; set; }
+
         public void PrintDayName()
         {
             switch (Name)
@@ -30,17 +37,5 @@ namespace Playground.AWalkDownORMLane
                     break;
             }
         }
-        public enum DayName
-        {
-            Sunday,
-            Monday,
-            Tuesday,
-            Wednesday,
-            Thursday,
-            Friday,
-            Saturday
-        }
-
-        public DayName Name { get; set; }
     }
 }
