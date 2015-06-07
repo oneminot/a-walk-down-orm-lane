@@ -5,12 +5,6 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.AWalkDownORMLane", "Console.AWalkDownORMLane\Console.AWalkDownORMLane.csproj", "{77E95040-2F6A-474A-84B4-C03A1C69CD91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.AWalkDownORMLane", "Playground.AWalkDownORMLane\Playground.AWalkDownORMLane.csproj", "{2FE6BBD9-E08C-46FF-9518-9BA747D9598E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.AWalkDownORMLane", "Web.AWalkDownORMLane\Web.AWalkDownORMLane.csproj", "{D59C5936-6DC8-4BD0-8B18-09383877FBA2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.AWalkDownORMLane.Tests", "Web.AWalkDownORMLane.Tests\Web.AWalkDownORMLane.Tests.csproj", "{B221284A-878B-42ED-AED6-81EA14763722}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTests.AWalkDownORMLane", "ConsoleTests.AWalkDownORMLane\ConsoleTests.AWalkDownORMLane.csproj", "{CAF76303-6440-4BA3-8012-B72F5BEEF792}"
 	ProjectSection(ProjectDependencies) = postProject
 		{77E95040-2F6A-474A-84B4-C03A1C69CD91} = {77E95040-2F6A-474A-84B4-C03A1C69CD91}
@@ -26,18 +20,6 @@ Global
 		{77E95040-2F6A-474A-84B4-C03A1C69CD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E95040-2F6A-474A-84B4-C03A1C69CD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E95040-2F6A-474A-84B4-C03A1C69CD91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FE6BBD9-E08C-46FF-9518-9BA747D9598E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FE6BBD9-E08C-46FF-9518-9BA747D9598E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FE6BBD9-E08C-46FF-9518-9BA747D9598E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FE6BBD9-E08C-46FF-9518-9BA747D9598E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D59C5936-6DC8-4BD0-8B18-09383877FBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D59C5936-6DC8-4BD0-8B18-09383877FBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D59C5936-6DC8-4BD0-8B18-09383877FBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D59C5936-6DC8-4BD0-8B18-09383877FBA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B221284A-878B-42ED-AED6-81EA14763722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B221284A-878B-42ED-AED6-81EA14763722}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B221284A-878B-42ED-AED6-81EA14763722}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B221284A-878B-42ED-AED6-81EA14763722}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CAF76303-6440-4BA3-8012-B72F5BEEF792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CAF76303-6440-4BA3-8012-B72F5BEEF792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAF76303-6440-4BA3-8012-B72F5BEEF792}.Release|Any CPU.ActiveCfg = Release|Any CPU
