@@ -13,5 +13,10 @@ namespace Console.AWalkDownORMLane
         {
             Name = "";
         }
+
+        public Person(string name)
+        {
+            Name = name;
+        }
     }
 }

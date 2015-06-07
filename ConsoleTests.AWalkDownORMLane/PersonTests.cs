@@ -12,5 +12,13 @@ namespace ConsoleTests.AWalkDownORMLane
             var person = new Console.AWalkDownORMLane.Person();
             Assert.AreEqual(person.Name, "");
         }
+
+        [TestMethod]
+        public void TestPersonConstructorWithName()
+        {
+            const string myName = "Katya";
+            var person = new Console.AWalkDownORMLane.Person(name: myName);
+            Assert.AreEqual(person.Name, myName);
+        }
     }
 }
